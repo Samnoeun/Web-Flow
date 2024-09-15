@@ -1,0 +1,453 @@
+/* Header....................................................... */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: scroll;
+}
+.header{
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    background: white;
+}
+.head-left{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 80px;
+    color: gray;
+}
+.head-right{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+button{
+    border-style: none;
+    background: black;
+    color: white;
+    height: 60px;
+    width: 140px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+/* Page-1................................................. */
+.page-1{
+    display: flex;
+    flex-direction: row;
+    background: black;
+}
+.side1-left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 100px 0 0 50px;
+    gap: 20px;
+}
+.circle-tick{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.tick{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.circle-tick p{
+    color: white;
+}
+.tick img{
+    width: 20px;
+    height: 20px;
+}
+#side1-p{
+    color: white;
+    width: 400px;
+}
+.side1-left h2{
+    color: white;
+    width: 200px;
+}
+.side1-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 90vh;
+    margin: 40px 0 40px 0;
+    background: white;
+    border-radius: 20px;
+    gap: 25px;
+}
+.name, .email-phone, .com-role{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.name input, .email-phone input, .com-role input{
+    border-style: none;
+    border-radius: 50px;
+    width: 110px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#get-start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(216, 22, 83);
+    padding: 30px;
+    width: 80%;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+/* Page2................................................... */
+.page-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 105px 0 85px 0;
+}
+.side2-left, .side2-center{
+    border-right: 1px solid rgb(205, 205, 205);
+}
+.side2-center{
+    padding: 0 80px 0 80px;
+}
+.side2-left, .side2-right{
+    padding: 0 50px 0 50px;
+}
+.page-2 h1{
+    width: 65%;
+    text-align: center;
+    color: rgb(17, 22, 82);
+}
+.main-2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.main-2 img{
+    width: 100px;
+    margin-top: 20px;
+}
+.side2-left, .side2-right{
+    padding: 0 50px 0 50px;
+}
+.side2-left p, .side2-center p, .side2-right p{
+    width: 170px;
+}
+#side2-p1{
+   margin-bottom: 20px;
+}
+#side2-p2{
+    margin-bottom: 95px;
+}
+#side2-p3{
+    margin-bottom: 50px;
+}
+/* Page3................................................. */
+.page-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px 0 100px 0;
+}
+.side3-left, .side3-center, .side3-right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.page-3 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.side3-left p, .side3-center p, .side3-right p{
+    width: 200px;
+}
+p{
+    color: rgb(158, 158, 158);
+}
+/* Page4..................................................... */
+.page-4{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0 80px 0;
+}
+.side4-left{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 30px;
+    padding: 70px 0 0 90px;
+}
+.side4-left h1{
+    width: 43%;
+    color: rgb(54, 53, 53);
+    padding-left: 28px;
+ }
+ .side4-left p{
+    width: 60%;
+    padding-left: 28px;
+}
+.side-bottun{
+    display: flex;
+}
+#left{
+    background: rgb(210, 34, 64);
+    width: 150px;
+}
+#right{
+    background: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side4-right img{
+    width: 380px;
+    height: 380px;
+    padding: 10px 150px 0 0;
+}
+
+
+/* Pagr-5.................................................. */
+.page-5{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 70px 0;
+}
+.side5-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+span{
+    color: rgb(210, 34, 64);
+}
+.side5-top p{
+    width: 800px;
+    text-align: center;
+}
+.side5-buttom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+.cen-left, .cen-cen, .cen-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.side5-buttom p{
+    width: 270px;
+    text-align: center;
+}
+.number{
+    display: flex;
+    background: pink;
+    border: 1px solid pink;
+    color: rgb(230, 22, 84);
+    width: 170px;
+    height: 170px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+/* Page-6................................................... */
+.page-6{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0 70px 0;
+}
+.side6-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+.side6-top p{
+    width: 600px;
+    text-align: center;
+}
+.box{
+    border-radius: 30px;
+    box-shadow: #00000029 0px 1px 4px;
+    width: 25%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 65px;
+}
+.box img{
+    width: 60px;
+    border-radius: 15px;
+    margin-right: 3px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 18px;
+    justify-content: center;
+}
+.side6-buttom{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.text p{
+    width: 220px;
+}
+/* Page-7.................................................. */
+.page-7{
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 70px 0 70px 0;
+}
+.boxes{
+    background: white;
+    height: 18vh;
+    width: 25%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 55px 70px 75px 70px;
+    box-shadow: #ebe9e9a8 0px 1px 4px;
+}
+.textes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.sign{
+    display: flex;
+    background: rgba(231, 224, 224, 0.726);
+    border: 1px solid rgba(231, 224, 224, 0.726);
+    color: rgba(51, 50, 50, 0.808);
+    width: 45px;
+    height: 45px;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/* Page-8.................................................... */
+.page-8{
+    display: flex;
+    flex-direction: column;
+}
+.side8-top{
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    padding: 90px 0 70px 70px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.content h2{
+    margin-bottom: 30px;
+}
+.content:nth-child(4){
+    margin-left: 100px;
+}
+.new{
+    display: flex;
+    flex-direction: row;
+}
+#neew{
+    font-size: 10px;
+    width: 60px;
+    height: 5vh;
+    border-radius: 40px;
+}
+.side8-buttom{
+    display: flex;
+    flex-direction: column;
+
+}
+#first{
+    height: 10vh;
+    border-top: 1px solid rgb(192, 192, 192);
+    border-bottom: 1px solid rgb(192, 192, 192);
+    display: flex;
+    justify-content: center;
+}
+#last{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px 0 50px;
+}
+#last-left{
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+}
+#last-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
